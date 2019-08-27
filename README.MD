@@ -16,10 +16,12 @@ More info:
 ## Setting up
 1. Install OpenZeppelin SDK, Ganache, and truffle
     ```
-    npm install -g truffle@5.0.2 ganache-cli@6.3.0 @openzeppelin/cli@2.5.1
+    sudo npm install -g truffle@5.0.2 ganache-cli@6.3.0 @openzeppelin/cli@2.5.1 --unsafe-perm
     ```
 2. Setup the starter kit (takes a while to download)
     ```
+    mkdir eth
+    cd eth
     openzeppelin unpack starter
     ```
 
