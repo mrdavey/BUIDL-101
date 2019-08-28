@@ -8,6 +8,10 @@ More info:
  - [Twitter](https://twitter.com/daveytea)
  - [LinkedIn](https://www.linkedin.com/in/daveytea/)
 
+### **Note**: Setup doesn't work on VMs yet due to too many dependency errors. There should be a 'docker'/containerized solution, however my knowledge in that area is limited. Have only tested successfully on local a mac environment.
+
+---
+
 ## Pre-setup
 1. Open MetaMask extension and follow the instructions. We're not dealing with `real` money today, so you don't need to backup the seed words.
  - In the real world, you would definitely back them up.
@@ -16,12 +20,12 @@ More info:
 ## Setting up
 1. Install OpenZeppelin SDK, Ganache, and truffle
     ```
-    sudo npm install -g truffle@5.0.2 ganache-cli@6.3.0 @openzeppelin/cli@2.5.1 --unsafe-perm
+    npm install -g truffle@5.0.2 ganache-cli@6.3.0 @openzeppelin/cli@2.5.1
     ```
 2. Setup the starter kit (takes a while to download)
     ```
-    mkdir eth
-    cd eth
+    mkdir buidl101
+    cd buidl101
     openzeppelin unpack starter
     ```
 
